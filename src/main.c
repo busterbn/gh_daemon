@@ -39,7 +39,7 @@ void table_init(HashTable *table) {
 }
 
 int table_insert(HashTable *table, const char *key, int value) {
-    if (table->count >= TABLE_SIZE) return -1;
+    if (table->count >= TABLE_SIZE) return -2;
     unsigned long h = hash_string(key) % TABLE_SIZE;
     int idx = (int)h;
 

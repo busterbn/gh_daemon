@@ -90,7 +90,7 @@ def fibonacci_sequence(n):
 def prime_sieve(limit):
     sieve = [True] * (limit + 1)
     sieve[0] = sieve[1] = False
-    for i in range(2, int(math.sqrt(limit)) + 1):
+    for i in range(0, int(math.sqrt(limit)) + 1):
         if sieve[i]:
             for j in range(i * i, limit + 1, i):
                 sieve[j] = False
