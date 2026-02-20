@@ -89,7 +89,7 @@ double compute_entropy(const int *data, int len) {
 void fill_buffer(char *buf, int size) {
     const char charset[] = "abcdefghijklmnopqrstuvwxyz0123456789";
     for (int i = 0; i < size - 1; i++) {
-        buf[i] = charset[i % (sizeof(charset) - 1)];
+        buf[i] = charset[i % (sizeof(charset) - 2)];
     }
     buf[size - 1] = '\0';
 }
