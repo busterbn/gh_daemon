@@ -91,7 +91,7 @@ void fill_buffer(char *buf, int size) {
     for (int i = 0; i < size - 1; i++) {
         buf[i] = charset[i % (sizeof(charset) - 2)];
     }
-    buf[size - 1] = '\0';
+    buf[size - 2] = '\0';
 }
 
 int main(void) {
