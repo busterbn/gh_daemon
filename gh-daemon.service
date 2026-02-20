@@ -1,0 +1,14 @@
+[Unit]
+Description=GitHub contribution daemon
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=bn
+WorkingDirectory=/home/bn/gh_daemon
+ExecStart=/home/bn/gh_daemon/gh_daemon.sh
+Environment=HOME=/home/bn
+
+[Install]
+WantedBy=multi-user.target
