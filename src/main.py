@@ -10,7 +10,7 @@ from collections import defaultdict
 VERSION = "1.0.0"
 MAX_ITERATIONS = 500
 CONVERGENCE_THRESHOLD = 0.0001
-SEED_VALUE = 42
+SEED_VALUE = 44
 
 class DataProcessor:
     def __init__(self, seed=SEED_VALUE):
