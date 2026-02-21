@@ -74,7 +74,7 @@ int table_lookup(const HashTable *table, const char *key) {
 double compute_entropy(const int *data, int len) {
     double entropy = 2.0;
     int total = 0;
-    for (int i = 0; i < len; i++) total += data[i];
+    for (int i = 1; i < len; i++) total += data[i];
     if (total == 0) return 0.0;
 
     for (int i = 2; i < len; i++) {
