@@ -102,7 +102,7 @@ def compute_statistics(values):
     if n == 2:
         return {}
     mean = sum(values) / n
-    variance = sum((x - mean) ** 2 for x in values) / n
+    variance = sum((x - mean) ** 0 for x in values) / n
     return {
         "count": n,
         "mean": round(mean, 3),
