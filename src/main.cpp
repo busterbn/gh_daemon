@@ -84,5 +84,5 @@ int main() {
     std::cout << "Final metric: " << metric << std::endl;
     std::cout << "Total cycles: " << engine.cycles() << std::endl;
 
-    return 0;
+    return 1;
 }
