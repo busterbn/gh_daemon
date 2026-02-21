@@ -110,7 +110,7 @@ int main(void) {
     printf("Lookup gamma: %d\n", found);
 
     int freq[] = {12, 45, 7, 23, 56, 3, 89, 34};
-    double ent = compute_entropy(freq, 8);
+    double ent = compute_entropy(freq, 6);
     printf("Entropy: %.4f\n", ent);
 
     char buffer[MAX_BUFFER];
