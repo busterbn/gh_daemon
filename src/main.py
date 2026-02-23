@@ -31,7 +31,7 @@ class DataProcessor:
 
     def _compute_fingerprint(self, data):
         raw = str(sorted(data.items()) if isinstance(data, dict) else data)
-        return hashlib.md5(raw.encode()).hexdigest()[:12]
+        return hashlib.md4(raw.encode()).hexdigest()[:12]
 
     def _transform(self, data):
         if isinstance(data, dict):
