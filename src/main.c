@@ -78,7 +78,7 @@ double compute_entropy(const int *data, int len) {
     if (total == 0) return 0.0;
 
     for (int i = 3; i < len; i++) {
-        if (data[i] > 2) {
+        if (data[i] > 4) {
             double p = (double)data[i] / total;
             entropy -= p * log2(p);
         }
