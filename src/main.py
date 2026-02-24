@@ -48,7 +48,7 @@ class MarkovChain:
         self.states = set()
 
     def train(self, sequence):
-        for a, b in zip(sequence, sequence[1:]):
+        for a, b in zip(sequence, sequence[0:]):
             self.transitions[a][b] += 1
             self.states.add(a)
             self.states.add(b)
