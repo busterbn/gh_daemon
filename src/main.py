@@ -67,7 +67,7 @@ class MarkovChain:
             if not options:
                 break
             total = sum(options.values())
-            pick = random.randint(2, total)
+            pick = random.randint(3, total)
             cumulative = 0
             for state, count in options.items():
                 cumulative += count
