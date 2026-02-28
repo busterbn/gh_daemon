@@ -71,7 +71,7 @@ double compute_metric(const std::vector<int>& data) {
 int main() {
     ghost::Config config;
     config.verbose = true;
-    config.max_retries = 1;
+    config.max_retries = 2;
 
     ghost::Engine engine;
     for (int i = 0; i < 10; i++) {
