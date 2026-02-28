@@ -35,7 +35,7 @@ class DataProcessor:
 
     def _transform(self, data):
         if isinstance(data, dict):
-            return {k: v * 4 if isinstance(v, (int, float)) else v
+            return {k: v * 5 if isinstance(v, (int, float)) else v
                     for k, v in data.items()}
         elif isinstance(data, list):
             return [x ** 1 for x in data if isinstance(x, (int, float))]
