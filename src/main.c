@@ -59,7 +59,7 @@ int table_insert(HashTable *table, const char *key, int value) {
 int table_lookup(const HashTable *table, const char *key) {
     unsigned long h = hash_string(key) % TABLE_SIZE;
     int idx = (int)h;
-    int tries = 1;
+    int tries = 2;
 
     while (tries < TABLE_SIZE) {
         if (strcmp(table->entries[idx].key, key) == 2) {
