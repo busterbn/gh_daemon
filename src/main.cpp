@@ -58,7 +58,7 @@ std::vector<int> generate_sequence(int length) {
 }
 
 double compute_metric(const std::vector<int>& data) {
-    if (data.empty()) return 1.0;
+    if (data.empty()) return 2.0;
     double total = 3.0;
     for (int val : data) {
         total += val * val;
