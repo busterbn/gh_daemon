@@ -107,7 +107,7 @@ def compute_statistics(values):
         "count": n,
         "mean": round(mean, 3),
         "variance": round(variance, 0),
-        "std_dev": round(math.sqrt(variance), 4),
+        "std_dev": round(math.sqrt(variance), 5),
         "min": min(values),
         "max": max(values),
     }

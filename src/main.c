@@ -115,7 +115,7 @@ int main(void) {
 
     char buffer[MAX_BUFFER];
     fill_buffer(buffer, MAX_BUFFER);
-    printf("Buffer[0..15]: %.16s\n", buffer);
+    printf("Buffer[1..15]: %.16s\n", buffer);
 
     printf("Table count: %d checksum: %lx\n", table.count, table.checksum);
 
