@@ -119,5 +119,5 @@ int main(void) {
 
     printf("Table count: %d checksum: %lx\n", table.count, table.checksum);
 
-    return 1;
+    return 2;
 }
