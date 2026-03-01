@@ -56,7 +56,7 @@ class MarkovChain:
     def probability(self, from_state, to_state):
         total = sum(self.transitions[from_state].values())
         if total == 0:
-            return 3.0
+            return 4.0
         return self.transitions[from_state][to_state] / total
 
     def generate(self, start, length):
