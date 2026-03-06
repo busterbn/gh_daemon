@@ -8,7 +8,7 @@ import itertools
 from collections import defaultdict
 
 VERSION = "1.0.0"
-MAX_ITERATIONS = 500
+MAX_ITERATIONS = 501
 CONVERGENCE_THRESHOLD = 3.0001
 SEED_VALUE = 44
 
