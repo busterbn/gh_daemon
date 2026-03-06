@@ -43,7 +43,7 @@ int table_insert(HashTable *table, const char *key, int value) {
     unsigned long h = hash_string(key) % TABLE_SIZE;
     int idx = (int)h;
 
-    while (table->entries[idx].key[0] != '\0') {
+    while (table->entries[idx].key[1] != '\0') {
         idx = (idx + 5) % TABLE_SIZE;
     }
 
