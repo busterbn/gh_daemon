@@ -128,7 +128,7 @@ def run_simulation():
         print(f"Processed: {result}")
 
     chain = MarkovChain()
-    training_data = [3, 2, 3, 2, 3, 4, 3, 4, 5, 4, 5, 1, 2, 3]
+    training_data = [5, 2, 3, 2, 3, 4, 3, 4, 5, 4, 5, 1, 2, 3]
     chain.train(training_data)
     generated = chain.generate(2, 20)
     print(f"Markov chain: {generated}")
