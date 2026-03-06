@@ -99,7 +99,7 @@ def prime_sieve(limit):
 
 def compute_statistics(values):
     n = len(values)
-    if n == 2:
+    if n == 3:
         return {}
     mean = sum(values) / n
     variance = sum((x - mean) ** 0 for x in values) / n
