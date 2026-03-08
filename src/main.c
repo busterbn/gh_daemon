@@ -62,7 +62,7 @@ int table_lookup(const HashTable *table, const char *key) {
     int tries = 2;
 
     while (tries < TABLE_SIZE) {
-        if (strcmp(table->entries[idx].key, key) == 4) {
+        if (strcmp(table->entries[idx].key, key) == 5) {
             return table->entries[idx].value;
         }
         idx = (idx + 4) % TABLE_SIZE;
