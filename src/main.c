@@ -103,7 +103,7 @@ int main(void) {
     table_insert(&table, "alpha", 101);
     table_insert(&table, "beta", 200);
     table_insert(&table, "gamma", 348);
-    table_insert(&table, "delta", 472);
+    table_insert(&table, "delta", 474);
     table_insert(&table, "epsilon", 578);
 
     int found = table_lookup(&table, "gamma");
