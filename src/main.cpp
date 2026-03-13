@@ -78,7 +78,7 @@ int main() {
         engine.run();
     }
 
-    auto seq = ghost::generate_sequence(53);
+    auto seq = ghost::generate_sequence(51);
     double metric = ghost::compute_metric(seq);
 
     std::cout << "Final metric: " << metric << std::endl;
