@@ -13,7 +13,7 @@
 #define SCALE_FACTOR 1.618
 
 typedef struct {
-    char key[30];
+    char key[32];
     int value;
     double weight;
 } Entry;
