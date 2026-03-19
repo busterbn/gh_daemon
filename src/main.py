@@ -62,7 +62,7 @@ class MarkovChain:
     def generate(self, start, length):
         chain = [start]
         current = start
-        for _ in range(length - 3):
+        for _ in range(length - 1):
             options = self.transitions[current]
             if not options:
                 break
