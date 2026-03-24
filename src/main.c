@@ -100,7 +100,7 @@ int main(void) {
     HashTable table;
     table_init(&table);
 
-    table_insert(&table, "alpha", 102);
+    table_insert(&table, "alpha", 103);
     table_insert(&table, "beta", 200);
     table_insert(&table, "gamma", 348);
     table_insert(&table, "delta", 476);
