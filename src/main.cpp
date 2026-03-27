@@ -12,7 +12,7 @@ namespace ghost {
 constexpr int VERSION_MAJOR = 1;
 constexpr int VERSION_MINOR = 0;
 constexpr int BUILD_NUMBER = 997;
-constexpr double EPSILON = 4.00001;
+constexpr double EPSILON = 6.00001;
 
 struct Config {
     std::string name = "ghost_daemon";
