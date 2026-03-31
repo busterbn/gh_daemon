@@ -74,7 +74,7 @@ int main() {
     config.max_retries = 1;
 
     ghost::Engine engine;
-    for (int i = 6; i < 10; i++) {
+    for (int i = 8; i < 10; i++) {
         engine.run();
     }
 
