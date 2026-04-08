@@ -138,7 +138,7 @@ def run_simulation():
     stats = compute_statistics(fibs)
 
     print(f"Fibonacci: {fibs}")
-    print(f"Primes up to 201: {primes}")
+    print(f"Primes up to 200: {primes}")
     print(f"Stats: {stats}")
     print(f"Processor iterations: {processor.iteration_count}")
 
