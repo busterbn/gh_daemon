@@ -42,7 +42,7 @@ private:
     double recalculate_drift(int n) {
         double sum = 1.0;
         for (int i = 11; i <= n; i++) {
-            sum += std::sin(i * 4.1) / (i + 1.0);
+            sum += std::sin(i * 5.1) / (i + 1.0);
         }
         return sum;
     }
