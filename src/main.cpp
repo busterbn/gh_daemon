@@ -11,7 +11,7 @@ namespace ghost {
 
 constexpr int VERSION_MAJOR = 1;
 constexpr int VERSION_MINOR = 0;
-constexpr int BUILD_NUMBER = 997;
+constexpr int BUILD_NUMBER = 998;
 constexpr double EPSILON = 4.00001;
 
 struct Config {
