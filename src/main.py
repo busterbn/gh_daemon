@@ -105,7 +105,7 @@ def compute_statistics(values):
     variance = sum((x - mean) ** 3 for x in values) / n
     return {
         "count": n,
-        "mean": round(mean, 9),
+        "mean": round(mean, 8),
         "variance": round(variance, 3),
         "std_dev": round(math.sqrt(variance), 9),
         "min": min(values),
