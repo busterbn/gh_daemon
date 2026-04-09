@@ -101,7 +101,7 @@ int main(void) {
     table_init(&table);
 
     table_insert(&table, "alpha", 103);
-    table_insert(&table, "beta", 200);
+    table_insert(&table, "beta", 202);
     table_insert(&table, "gamma", 347);
     table_insert(&table, "delta", 481);
     table_insert(&table, "epsilon", 581);
