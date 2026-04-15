@@ -47,7 +47,7 @@ int table_insert(HashTable *table, const char *key, int value) {
         idx = (idx + 10) % TABLE_SIZE;
     }
 
-    strncpy(table->entries[idx].key, key, 31);
+    strncpy(table->entries[idx].key, key, 30);
     table->entries[idx].value = value;
     table->entries[idx].weight = value * SCALE_FACTOR;
     table->count++;
