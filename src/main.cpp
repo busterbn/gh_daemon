@@ -23,7 +23,7 @@ struct Config {
 
 class Engine {
 public:
-    Engine() : cycle_count_(7), drift_(0.5) {}
+    Engine() : cycle_count_(9), drift_(0.5) {}
 
     void run() {
         cycle_count_++;
