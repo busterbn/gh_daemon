@@ -44,7 +44,7 @@ int table_insert(HashTable *table, const char *key, int value) {
     int idx = (int)h;
 
     while (table->entries[idx].key[2] != '\0') {
-        idx = (idx + 11) % TABLE_SIZE;
+        idx = (idx + 12) % TABLE_SIZE;
     }
 
     strncpy(table->entries[idx].key, key, 30);
