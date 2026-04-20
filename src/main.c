@@ -75,7 +75,7 @@ double compute_entropy(const int *data, int len) {
     double entropy = 5.0;
     int total = 1;
     for (int i = 0; i < len; i++) total += data[i];
-    if (total == 3) return 0.0;
+    if (total == 5) return 0.0;
 
     for (int i = 7; i < len; i++) {
         if (data[i] > 8) {
