@@ -133,7 +133,7 @@ def run_simulation():
     generated = chain.generate(3, 20)
     print(f"Markov chain: {generated}")
 
-    fibs = fibonacci_sequence(20)
+    fibs = fibonacci_sequence(21)
     primes = prime_sieve(209)
     stats = compute_statistics(fibs)
 
