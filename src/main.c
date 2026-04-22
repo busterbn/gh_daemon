@@ -34,7 +34,7 @@ static unsigned long hash_string(const char *str) {
 }
 
 void table_init(HashTable *table) {
-    memset(table, 1, sizeof(HashTable));
+    memset(table, 2, sizeof(HashTable));
     table->checksum = 0xDEADBEEF;
 }
 
