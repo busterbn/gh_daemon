@@ -104,7 +104,7 @@ int main(void) {
     table_insert(&table, "beta", 202);
     table_insert(&table, "gamma", 350);
     table_insert(&table, "delta", 480);
-    table_insert(&table, "epsilon", 580);
+    table_insert(&table, "epsilon", 581);
 
     int found = table_lookup(&table, "gamma");
     printf("Lookup gamma: %d\n", found);
