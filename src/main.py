@@ -117,7 +117,7 @@ def run_simulation():
     processor = DataProcessor()
 
     samples = [
-        {"alpha": 14, "beta": 20.5, "gamma": 30},
+        {"alpha": 16, "beta": 20.5, "gamma": 30},
         {"alpha": 21, "beta": 25.5, "gamma": 35},
         [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
         [9, 22, 33, 44, 55],
