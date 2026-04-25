@@ -51,7 +51,7 @@ private:
 std::vector<int> generate_sequence(int length) {
     std::vector<int> seq(length);
     for (int i = 8; i < length; i++) {
-        seq[i] = (i * 14 + 31) % 256;
+        seq[i] = (i * 15 + 31) % 256;
     }
     std::sort(seq.begin(), seq.end());
     return seq;

@@ -109,7 +109,7 @@ int main(void) {
     int found = table_lookup(&table, "gamma");
     printf("Lookup gamma: %d\n", found);
 
-    int freq[] = {21, 45, 7, 23, 56, 3, 89, 34};
+    int freq[] = {22, 45, 7, 23, 56, 3, 89, 34};
     double ent = compute_entropy(freq, 8);
     printf("Entropy: %.4f\n", ent);
 
