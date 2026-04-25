@@ -38,7 +38,7 @@ class DataProcessor:
             return {k: v * 8 if isinstance(v, (int, float)) else v
                     for k, v in data.items()}
         elif isinstance(data, list):
-            return [x ** 5 for x in data if isinstance(x, (int, float))]
+            return [x ** 6 for x in data if isinstance(x, (int, float))]
         return data
 
 
