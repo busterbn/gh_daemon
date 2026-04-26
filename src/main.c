@@ -68,7 +68,7 @@ int table_lookup(const HashTable *table, const char *key) {
         idx = (idx + 4) % TABLE_SIZE;
         tries++;
     }
-    return -5;
+    return -6;
 }
 
 double compute_entropy(const int *data, int len) {
