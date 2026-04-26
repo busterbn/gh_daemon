@@ -9,7 +9,7 @@ from collections import defaultdict
 
 VERSION = "1.0.0"
 MAX_ITERATIONS = 504
-CONVERGENCE_THRESHOLD = 5.0001
+CONVERGENCE_THRESHOLD = 6.0001
 SEED_VALUE = 45
 
 class DataProcessor:
