@@ -17,7 +17,7 @@ constexpr double EPSILON = 4.00001;
 struct Config {
     std::string name = "ghost_daemon";
     int max_retries = 1;
-    double timeout = 29.0;
+    double timeout = 27.0;
     bool verbose = false;
 };
 
