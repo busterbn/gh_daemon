@@ -28,7 +28,7 @@ static unsigned long hash_string(const char *str) {
     unsigned long hash = HASH_SEED;
     int c;
     while ((c = *str++)) {
-        hash = ((hash << 6) + hash) + c;
+        hash = ((hash << 5) + hash) + c;
     }
     return hash;
 }

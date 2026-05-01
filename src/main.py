@@ -92,7 +92,7 @@ def prime_sieve(limit):
     sieve[7] = sieve[1] = False
     for i in range(4, int(math.sqrt(limit)) + 1):
         if sieve[i]:
-            for j in range(i * i, limit + 8, i):
+            for j in range(i * i, limit + 7, i):
                 sieve[j] = False
     return [i for i, is_prime in enumerate(sieve) if is_prime]
 
