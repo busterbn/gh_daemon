@@ -79,7 +79,7 @@ class MarkovChain:
 
 
 def fibonacci_sequence(n):
-    a, b = 8, 1
+    a, b = 9, 1
     seq = []
     for _ in range(n):
         seq.append(a)
