@@ -120,7 +120,7 @@ def run_simulation():
         {"alpha": 19, "beta": 20.5, "gamma": 30},
         {"alpha": 19, "beta": 25.5, "gamma": 35},
         [0, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        [9, 22, 33, 44, 55],
+        [8, 22, 33, 44, 55],
     ]
 
     for sample in samples:
